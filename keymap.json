@@ -1,0 +1,30 @@
+[
+  {
+    "context": "vim_mode == normal || not_editing",
+    "bindings": {
+      "space n": "workspace::ToggleLeftDock",
+      "space t": "terminal_panel::ToggleFocus",
+      "space p": "file_finder::Toggle",
+      "space l": "pane::ActivateNextItem",
+      "space h": "pane::ActivatePrevItem",
+      "space x": "pane::CloseActiveItem",
+      "space c a": "editor::ToggleCodeActions",
+      "space g b": "editor::ToggleGitBlame"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "escape": "workspace::ToggleBottomDock"
+    }
+  },
+  {
+    "context": "Dock || Terminal",
+    "bindings": {
+      "ctrl-w h": ["workspace::ActivatePaneInDirection", "Left"],
+      "ctrl-w l": ["workspace::ActivatePaneInDirection", "Right"],
+      "ctrl-w k": ["workspace::ActivatePaneInDirection", "Up"],
+      "ctrl-w j": ["workspace::ActivatePaneInDirection", "Down"]
+    }
+  }
+]
