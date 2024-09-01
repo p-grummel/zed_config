@@ -20,10 +20,10 @@
   "vertical_scroll_margin": 0,
   "ui_font_size": 16,
   "buffer_font_size": 16,
-  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_family": "ZedMono Nerd Font",
   "theme": {
     "mode": "system",
-    "light": "Solarized Light",
+    "light": "Gruvbox Dark Soft",
     "dark": "One Dark"
   }
 }

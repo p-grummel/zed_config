@@ -19,6 +19,14 @@
     }
   },
   {
+    "context": "ProjectPanel && not_editing",
+    "bindings": {
+      "n": "project_panel::NewFile",
+      "r": "project_panel::Rename",
+      "d": "project_panel::Delete"
+    }
+  },
+  {
     "context": "Dock || Terminal",
     "bindings": {
       "ctrl-w h": ["workspace::ActivatePaneInDirection", "Left"],
