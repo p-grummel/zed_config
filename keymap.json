@@ -9,7 +9,8 @@
       "space h": "pane::ActivatePrevItem",
       "space x": "pane::CloseActiveItem",
       "space c a": "editor::ToggleCodeActions",
-      "space g b": "editor::ToggleGitBlame"
+      "space g b": "editor::ToggleGitBlame",
+      "space r": "editor::Rename"
     }
   },
   {
