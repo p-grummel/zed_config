@@ -10,7 +10,8 @@
       "space x": "pane::CloseActiveItem",
       "space c a": "editor::ToggleCodeActions",
       "space g b": "editor::ToggleGitBlame",
-      "space r": "editor::Rename"
+      "space r": "editor::Rename",
+      "space i h": "editor::ToggleInlayHints"
     }
   },
   {
